@@ -1,0 +1,18 @@
+# Ignore C++ object files.
+*.o
+# Ignore backup files.
+*~
+# Ignore log files.
+*.log
+# Ignore C++ compilation files.
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CMakeFiles/
+# Ignore directories created by doxygen.
+html/
+latex/
+# Ignore temporary directories.
+tmp/
+# Ignore executable files.
+FFTExample
